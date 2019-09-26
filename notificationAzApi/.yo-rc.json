@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.azmortgage",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "microservice",
+    "baseName": "notificationAzApi",
+    "packageName": "com.azmortgage",
+    "packageFolder": "com/azmortgage",
+    "serverPort": "8095",
+    "authenticationType": "uaa",
+    "uaaBaseName": "authAzApi",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YTI1NDhhNzFhMzI3NDRkOWMwZDFlMzdiYmE3YzhmM2QyYTYxMThhMjA1OTIxZGE3MTdmNjlkY2YzOTBkMmU4ZGY4YTIyZDg4NzExNzZmNGY4MDVhNTAyMDhlZTc0NTZiNjkxYjJhYzlmOWNiY2U0OTNmYzM1ZjIwYWJlOGVkZTg=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "de"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

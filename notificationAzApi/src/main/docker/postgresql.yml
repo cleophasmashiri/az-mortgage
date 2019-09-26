@@ -1,0 +1,11 @@
+version: '2'
+services:
+  notificationazapi-postgresql:
+    image: postgres:11.5
+    # volumes:
+    #     - ~/volumes/jhipster/notificationAzApi/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=notificationAzApi
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
